@@ -115,7 +115,7 @@
     </Rule>
     <Rule>
       <Filter>[leisure] = 'park' or [leisure] = 'recreation_ground'</Filter>
-      &maxscale_zoom10;
+      &maxscale_zoom13;
       <PolygonSymbolizer fill-opacity="0.6" fill="#b6fdb6"/>
     </Rule>
     <Rule>
@@ -182,7 +182,7 @@
     </Rule>
     <Rule>
       <Filter>[landuse] = 'retail'</Filter>
-      &maxscale_zoom10;
+      &maxscale_zoom13;
       <PolygonSymbolizer fill="#f1dada"/>
     </Rule>
     <Rule>
@@ -261,12 +261,12 @@
     </Rule>
     <Rule>
       <Filter>[amenity] = 'university' or [amenity] = 'college' or [amenity] = 'school' or [amenity]='hospital' or [amenity]='kindergarten'</Filter>
-      &maxscale_zoom10;
+      &maxscale_zoom13;
       <PolygonSymbolizer fill="#f0f0d8"/>
     </Rule>
     <Rule>
       <Filter>[amenity] = 'university' or [amenity] = 'college' or [amenity] = 'school' or [amenity]='hospital' or [amenity]='kindergarten'</Filter>
-      &maxscale_zoom12;
+      &maxscale_zoom13;
       <LineSymbolizer stroke="brown" stroke-width="0.3"/>
     </Rule>
     <Rule>

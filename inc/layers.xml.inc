@@ -10,6 +10,6 @@
 <!ENTITY layer-amenity-stations SYSTEM "layer-amenity-stations.xml.inc">
 <!ENTITY layer-amenity-symbols SYSTEM "layer-amenity-symbols.xml.inc">
 <!ENTITY layer-amenity-points SYSTEM "layer-amenity-points.xml.inc">
-<!ENTITY layer-power SYSTEM "layer-power.xml.inc">
+<!-- !ENTITY layer-power SYSTEM "layer-power.xml.inc" -->
 <!ENTITY layer-addressing SYSTEM "layer-addressing.xml.inc">
 <!ENTITY layer-admin SYSTEM "layer-admin.xml.inc">

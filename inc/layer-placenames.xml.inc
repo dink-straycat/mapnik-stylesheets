@@ -63,12 +63,14 @@
     </Rule>
 </Style>
 <Style name="city">
+<!--
     <Rule>
       <Filter>[place] = 'city' or [place]='metropolis'</Filter>
       &maxscale_zoom6;
       &minscale_zoom8;
       <TextSymbolizer size="8" fill="#000" dy="0" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
     </Rule>
+-->
     <Rule>
       <Filter>[place] = 'city' or [place]='metropolis'</Filter>
       &maxscale_zoom9;
@@ -83,31 +85,35 @@
     </Rule>
 </Style>
 <Style name="town">
+<!--
     <Rule>
       <Filter>[place] = 'town' or [place]='large_town' or [place]='small_town'</Filter>
       &maxscale_zoom9;
       &minscale_zoom10;
       <TextSymbolizer size="8" fill="#000" fontset-name="book-fonts" halo-radius="1" wrap-width="20">[name]</TextSymbolizer>
     </Rule>
+-->
     <Rule>
       <Filter>[place] = 'town' or [place]='large_town' or [place]='small_town'</Filter>
-      &maxscale_zoom11;
-      &minscale_zoom13;
+      &maxscale_zoom13;
+      &minscale_zoom14;
       <TextSymbolizer size="10" fill="#000" fontset-name="book-fonts" halo-radius="1" wrap-width="20">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       <Filter>[place] = 'town' or [place]='large_town' or [place]='small_town'</Filter>
-      &maxscale_zoom14;
+      &maxscale_zoom15;
       <TextSymbolizer size="14" fill="#777777" fontset-name="book-fonts" halo-radius="1" wrap-width="20">[name]</TextSymbolizer>
     </Rule>
 </Style>
 <Style name="suburb">
+<!--
     <Rule>
       <Filter>[place] = 'suburb'</Filter>
       &maxscale_zoom12;
       &minscale_zoom13;
       <TextSymbolizer size="10" fill="#000" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
     </Rule>
+-->
     <Rule>
       <Filter>[place] = 'suburb'</Filter>
       &maxscale_zoom14;
@@ -117,7 +123,7 @@
 <Style name="village">
     <Rule>
       <Filter>[place] = 'village' or [place]='large_village'</Filter>
-      &maxscale_zoom12;
+      &maxscale_zoom14;
       &minscale_zoom14;
       <TextSymbolizer size="9" fill="#000" fontset-name="book-fonts" halo-radius="1" wrap-width="0">[name]</TextSymbolizer>
     </Rule>

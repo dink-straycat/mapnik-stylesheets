@@ -26,12 +26,12 @@
 <Style name="buildings">
     <Rule>
       <Filter>[building] = 'INT-light'</Filter>
-      &maxscale_zoom12;
+      &maxscale_zoom15;
       <PolygonSymbolizer fill-opacity="0.7" fill="#bca9a9"/>
     </Rule>
     <Rule>
       <Filter>[building] != 'INT-light' and [building] != ''</Filter>
-      &maxscale_zoom12;
+      &maxscale_zoom15;
       <PolygonSymbolizer fill-opacity="0.9" fill="#bca9a9"/>
     </Rule>
     <Rule>
