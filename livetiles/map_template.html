@@ -15,8 +15,8 @@ html,body {
 }
 
 div#map {
-  height: 100%;
-  width: 100%;
+  width: 800px;
+  height: 400px;
   background-color:white;
 }
 
@@ -41,11 +41,13 @@ var map;
 
 function drawmap() {
 
-    OpenLayers.Lang.setCode('de');
+    //OpenLayers.Lang.setCode('de');
 
-    var lon = 11.19815;
-    var lat = 49.25059;
-    var zoom = 6;
+    var lon = 139.668826;
+    var lat = 35.6075666;
+    //var lat = 35.6714229;
+    //var lon = 139.7027312;
+    var zoom = 18;
 
     var proj4326 = new OpenLayers.Projection("EPSG:4326");
     var projmerc = new OpenLayers.Projection("EPSG:900913");
