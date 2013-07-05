@@ -49,6 +49,7 @@
     &maxscale_zoom17;
     <Filter>[highway]='traffic_signals'</Filter>
     <PointSymbolizer file="&symbols;/traffic_light.png" placement="interior"/>
+    <TextSymbolizer size="8" fill="#6692da" dy="-12" fontset-name="bold-fonts" halo-radius="1" wrap-width="0" placement="interior">[name]</TextSymbolizer>
     </Rule>
     <Rule>
       &maxscale_zoom17;
