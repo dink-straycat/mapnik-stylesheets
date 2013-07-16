@@ -442,7 +442,7 @@
     <StyleName>points</StyleName>
     <Datasource>
       <Parameter name="table">
-      (select way,amenity,shop,tourism,highway,man_made,access,religion,waterway,lock,historic,leisure
+      (select way,amenity,shop,tourism,highway,man_made,name,access,religion,waterway,lock,historic,leisure
       from &prefix;_point
       where amenity is not null
          or shop is not null
@@ -461,7 +461,7 @@
     <StyleName>points</StyleName>
     <Datasource>
       <Parameter name="table">
-      (select way,amenity,shop,tourism,highway,man_made,access,religion,waterway,lock,historic,leisure
+      (select way,amenity,shop,tourism,highway,man_made,name,access,religion,waterway,lock,historic,leisure
       from &prefix;_polygon
       where amenity is not null
          or shop is not null

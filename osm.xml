@@ -517,6 +517,11 @@
       &maxscale_zoom17;
       <TextSymbolizer size="10" fill="#aa66cc" fontset-name="book-fonts" halo-radius="1" wrap-width="10" placement="interior">[ref]</TextSymbolizer>
     </Rule>
+    <Rule>
+      <Filter>[name] != ''</Filter>
+      &maxscale_zoom17;
+      <TextSymbolizer size="10" fill="#000000" fontset-name="book-fonts" halo-radius="2" wrap-width="10" placement="interior" opacity=".85">[name]</TextSymbolizer>
+    </Rule>
 </Style>
 <Style name="tunnels-casing">
     <Rule>
