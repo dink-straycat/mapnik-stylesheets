@@ -40,6 +40,11 @@
       <LineSymbolizer stroke="#330066" stroke-width="0.2"/>
     </Rule>
     <Rule>
+      <Filter>[building] != 'INT-light' and [building] != ''</Filter>
+      &maxscale_zoom16;
+      <BuildingSymbolizer height="1.5" fill="#cfcfcf"/>
+    </Rule>
+    <Rule>
       <Filter>[aeroway] = 'terminal'</Filter>
       &maxscale_zoom12;
       <PolygonSymbolizer fill="#cc99ff"/>
