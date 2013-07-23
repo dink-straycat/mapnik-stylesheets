@@ -552,14 +552,26 @@
     <Rule>
       <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
       &maxscale_zoom13;
-      &minscale_zoom14;
-      <LineSymbolizer stroke="#477147" stroke-width="8" stroke-dasharray="4,2"/>
+      &minscale_zoom13;
+      <LineSymbolizer stroke="#477147" stroke-width="{trc13}" stroke-dasharray="4,2"/>
     </Rule>
     <Rule>
      <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
+      &maxscale_zoom14;
+      &minscale_zoom14;
+      <LineSymbolizer stroke="#477147" stroke-width="{trc14}" stroke-dasharray="4,2"/>
+    </Rule>
+    <Rule>
+      <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
       &maxscale_zoom15;
+      &minscale_zoom15;
+      <LineSymbolizer stroke="#477147" stroke-width="{trc15}" stroke-dasharray="4,2"/>
+    </Rule>
+    <Rule>
+     <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
+      &maxscale_zoom16;
       &minscale_zoom16;
-      <LineSymbolizer stroke="#477147" stroke-width="11" stroke-dasharray="4,2"/>
+      <LineSymbolizer stroke="#477147" stroke-width="{trc16}" stroke-dasharray="4,2"/>
     </Rule>
     <Rule>
      <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
@@ -572,6 +584,18 @@
       &maxscale_zoom18;
       &minscale_zoom18;
       <LineSymbolizer stroke="#477147" stroke-width="{trc18}" stroke-dasharray="4,2"/>
+    </Rule>
+    <Rule>
+     <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
+      &maxscale_zoom19;
+      &minscale_zoom19;
+      <LineSymbolizer stroke="#477147" stroke-width="{trc19}" stroke-dasharray="4,2"/>
+    </Rule>
+    <Rule>
+     <Filter>[highway] = 'trunk' or [highway] = 'trunk_link'</Filter>
+      &maxscale_zoom20;
+      &minscale_zoom20;
+      <LineSymbolizer stroke="#477147" stroke-width="{trc20}" stroke-dasharray="4,2"/>
     </Rule>
     <Rule>
       <Filter>[highway] = 'primary' or [highway] = 'primary_link'</Filter>

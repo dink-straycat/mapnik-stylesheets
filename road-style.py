@@ -1,18 +1,18 @@
 #!/usr/bin/python
 
 # unit=m
-pedestrian=2
-service=2
-residential=2
+pedestrian=2.0
+service=2.0
+residential=2.0
 road=residential
-unclassified=3
-tertiary=5
-secondary=6
+unclassified=3.0
+tertiary=5.0
+secondary=6.0
 primary=secondary
 trunk=primary
 
 # unit=px
-case=2
+case=2.0
 
 
 d = {
@@ -20,43 +20,30 @@ d = {
     'seco-fill': '#fed7a5',
     'tert-fill1': '#ffc',
     'tert-fill2': '#ffffb3',
-    'trc17': 1 * trunk + case,
-    'trf17': 1 * trunk,
-    'prc17': 1 * primary + case,
-    'prf17': 1 * primary,
-    'sec17': 1 * secondary + case,
-    'sef17': 1 * secondary,
-    'tec17': 1 * tertiary + case,
-    'tef17': 1 * tertiary,
-    'unc17': 1 * unclassified + case,
-    'unf17': 1 * unclassified,
-    'rec17': 1 * residential + case,
-    'ref17': 1 * residential,
-    'roc17': 1 * road + case,
-    'rof17': 1 * road,
-    'svc17': 1 * service + case,
-    'svf17': 1 * service,
-    'pec17': 1 * pedestrian + case,
-    'pef17': 1 * pedestrian,
-    'trc18': 2 * trunk + case,
-    'trf18': 2 * trunk,
-    'prc18': 2 * primary + case,
-    'prf18': 2 * primary,
-    'sec18': 2 * secondary + case,
-    'sef18': 2 * secondary,
-    'tec18': 2 * tertiary + case,
-    'tef18': 2 * tertiary,
-    'unc18': 2 * unclassified + case,
-    'unf18': 2 * unclassified,
-    'rec18': 2 * residential + case,
-    'ref18': 2 * residential,
-    'roc18': 2 * road + case,
-    'rof18': 2 * road,
-    'svc18': 2 * service + case,
-    'svf18': 2 * service,
-    'pec18': 2 * pedestrian + case,
-    'pef18': 2 * pedestrian,
 }
+
+# zoomlevel 20 to 13
+for z in range(8):
+    zoomlevel = str(20 - z)
+    width = 8.0 / ( 2 ** z )
+    d['trc' + zoomlevel] = width * trunk + case
+    d['trf' + zoomlevel] = width * trunk
+    d['prc' + zoomlevel] = width * primary + case
+    d['prf' + zoomlevel] = width * primary
+    d['sec' + zoomlevel] = width * secondary + case
+    d['sef' + zoomlevel] = width * secondary
+    d['tec' + zoomlevel] = width * tertiary + case
+    d['tef' + zoomlevel] = width * tertiary
+    d['unc' + zoomlevel] = width * unclassified + case
+    d['unf' + zoomlevel] = width * unclassified
+    d['rec' + zoomlevel] = width * residential + case
+    d['ref' + zoomlevel] = width * residential
+    d['roc' + zoomlevel] = width * road + case
+    d['rof' + zoomlevel] = width * road
+    d['svc' + zoomlevel] = width * service + case
+    d['svf' + zoomlevel] = width * service
+    d['pec' + zoomlevel] = width * pedestrian + case
+    d['pef' + zoomlevel] = width * pedestrian
 
 with open('osm-template.xml') as f:
     for line in f:

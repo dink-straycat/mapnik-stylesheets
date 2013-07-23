@@ -43,4 +43,8 @@
 <!ENTITY maxscale_zoom17 "<MaxScaleDenominator>5000</MaxScaleDenominator>">
 <!ENTITY minscale_zoom17 "<MinScaleDenominator>2500</MinScaleDenominator>">
 <!ENTITY maxscale_zoom18 "<MaxScaleDenominator>2500</MaxScaleDenominator>">
-<!ENTITY minscale_zoom18 "">
+<!ENTITY minscale_zoom18 "<MinScaleDenominator>1250</MinScaleDenominator>">
+<!ENTITY maxscale_zoom19 "<MaxScaleDenominator>1250</MaxScaleDenominator>">
+<!ENTITY minscale_zoom19 "<MinScaleDenominator>650</MinScaleDenominator>">
+<!ENTITY maxscale_zoom20 "<MinScaleDenominator>650</MinScaleDenominator>">
+<!ENTITY minscale_zoom20 "">
